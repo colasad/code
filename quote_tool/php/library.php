@@ -40,4 +40,4 @@
 	if ($dbRead->getConnection()){
 		echo 'Read Connection Established' . '<br />';
 	}*/
-?>Í
+?>
