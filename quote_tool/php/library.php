@@ -1,4 +1,5 @@
 <?php
+	
 	// Set path to the Zend library on system
 	//
 	$library = '../../php/ZendFramework/library';
@@ -32,7 +33,8 @@
 	} catch (Exception $e) {
 		echo $e->getMessage();
 	}
-	// Test connections
+	
+	// Used to tst user account privileges
 	//
 	/*if ($dbWrite->getConnection()){
 		echo 'Write Connection Established'. '<br />';
@@ -40,4 +42,5 @@
 	if ($dbRead->getConnection()){
 		echo 'Read Connection Established' . '<br />';
 	}*/
+
 ?>
