@@ -19,16 +19,16 @@ try {
 	// Write Privileges
 	//
 	$write = array ('host' => 'localhost',
-			'username' => 'eggmedia_cWrite',
-			'password' => 'cWrite99',
-			'dbname' => 'eggmedia_client');
+			'username' => '???',
+			'password' => '???',
+			'dbname' => '???');
 	
 	// Read privileges
 	//
 	$read = array ('host' => 'localhost',
-			'username' => 'eggmedia_cRead',
-			'password' => 'cRead99',
-			'dbname' => 'eggmedia_client');
+			'username' => '???',
+			'password' => '???',
+			'dbname' => '???');
 	
 	
 	// DB Adapter
