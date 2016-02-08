@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-	class Promo_setup extends Leisurenet_Controller {
+	class Promo_setup extends CI_Controller  {
         function __construct() {
             parent::__construct();
             $this->load->model('promo_setup_model');
@@ -48,10 +48,10 @@
 							
 				foreach ($this -> data['info'] as $promo) {
 						
-					// put promo source codes and get id
+					// put source codes and get id
 					$id = $this->promo_setup_model->put_promo($promo['site_db'], $promo['name'], $promo['code']);
 										
-					// put promo conditions
+					// put conditions
 					$this->promo_setup_model->put_promo_conditions($promo['site_db'], $id, json_decode($promo['conditions'], TRUE));
 				}							
 												

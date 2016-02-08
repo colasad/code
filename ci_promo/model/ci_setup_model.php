@@ -3,7 +3,6 @@
 class Promo_setup_model extends CI_Model {
 	function __construct() {
 	   parent::__construct();
-	   $this -> cicart = $this -> load -> database('cicart1_db', TRUE);
 	}
 	
 	// get source codes
@@ -26,7 +25,7 @@ class Promo_setup_model extends CI_Model {
 					(`code` <> '' AND `code` IS NOT NULL)
 				";
 
-		return $this->cicart->query($sql)->row_array();
+		return $this->db->query($sql)->row_array();
 	}
 
 	// get promo condition names 
@@ -37,7 +36,7 @@ class Promo_setup_model extends CI_Model {
 					`".$site_db."`.`promo_condition_names`
 				";
 
-		return $this->cicart->query($sql)->row_array();
+		return $this->db->query($sql)->row_array();
 	}
 	
 	// get promo conditioins
@@ -54,7 +53,7 @@ class Promo_setup_model extends CI_Model {
 					`promo_id` = '".$promo_id."'
 				";
 
-		return $this->cicart->query($sql)->row_array();
+		return $this->db->query($sql)->row_array();
 	}	
 	
 	// add source code to promo table
@@ -68,7 +67,7 @@ class Promo_setup_model extends CI_Model {
 
 		$this->cicart->query($sql);
 		
-		return $this->cicart->insert_id();
+		return $this->db->insert_id();
 	}
 	
 	// add promo conditions
@@ -81,7 +80,7 @@ class Promo_setup_model extends CI_Model {
 					VALUES
 						('$promo_id', $key, '$value')
 					";
-			$this->cicart->query($sql);
+			$this->db->query($sql);
 		}
 		
 	}
