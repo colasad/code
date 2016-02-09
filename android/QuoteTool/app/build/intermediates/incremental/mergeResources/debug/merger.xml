@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\layout\activity_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\menu\splash.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >QuoteTool
+                </string>
+                <string name="title_activity_main" >Main
+                </string>
+            </file>
+            <file
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\values-w820dp\dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="logo"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\logo.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\logo.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\bg.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="buttondown"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\buttondown.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="bg"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\bg.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="buttonup"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\buttonup.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="buttondown"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\buttondown.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="mybutton"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable\mybutton.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\splash.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="buttonup"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\buttonup.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="buttonup"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\buttonup.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\splash.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\bg.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="buttondown"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\buttondown.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xhdpi\logo.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="logo"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-hdpi\logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="buttonup"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\buttonup.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\splash.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="splash"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-mdpi\splash.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="buttondown"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\buttondown.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="bg"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\drawable-xxhdpi\bg.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="main"
+                path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+        </source>
+        <source path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\build\generated\res\rs\debug" />
+        <source path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\build\generated\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Sony\AndroidStudioProjects\QuoteTool\app\src\debug\res" />
+    </dataSet>
+
+</merger>
